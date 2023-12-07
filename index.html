@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/icons8-cronômetro-80.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <title>Cronometro</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Syncopate&display=swap');
+    </style>
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Cronômetro | JavaScript</h1>
+        <div class="div-cronometro">
+            <div id="horas">00</div>
+            <div id="separador">:</div>
+            <div id="minutos">00</div>
+            <div id="separador">:</div>
+            <div id="segundos">00</div>
+            <div id="separador">:</div>
+            <div id="millisegundos">000</div>
+        </div>
+        <div class="botoes">
+            <button id="StartBtn" onclick="controlarCronometro()">Start</button>
+            <button id="restaurar" onclick="resetarCronometro()">Reseat</button>
+        </div>
+    </div>
+</body>
+
+</html>
+
